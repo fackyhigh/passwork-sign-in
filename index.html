@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passwork</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+    <div class="main">
+        <div class="pop-up pop-up__register">
+            <div class="pop-up__register-wrapper">
+                <div class="pop-up__register-wrapper-left">
+                    <div class="pop-up__heading-h1">Sign Up</div>
+                    <div class="pop-up__text" id="pop-up__text-mobile">
+                        Already have an account?
+                        <a href="" class="pop-up__link"> Log in</a>
+                    </div>
+                    <div class="pop-up__input-text">
+                        <input type="text" name="" id="email-input" class="sign-in__input" required>
+                        <label for="email-input" class="sign-in__label">Email</label>
+                    </div>
+                    <div class="pop-up__input-text">
+                        <input type="password" name="" id="password-input" class="sign-in__input" required>
+                        <label for="password-input" class="sign-in__label">Password</label>
+                        <div class="eye-icon"></div>
+                    </div>
+                    <div class="pop-up__input-text">
+                        <input type="password" name="" id="master-input" class="sign-in__input" required>
+                        <label for="master-input" class="sign-in__label">Master Password</label>
+                        <div class="eye-icon"></div>
+                    </div>
+                    <div class="pop-up__input-text">
+                        <input type="password" name="" id="comfirm-master-input" class="sign-in__input" required>
+                        <label for="comfirm-master-input" class="sign-in__label">Confirm Master Password</label>
+                        <div class="eye-icon"></div>
+                    </div>
+                    <div class="warn">
+                        <div class="warn__icon"></div>
+                        <div class="warn__text">
+                            We can not restore the master&nbsppassword, so be sure not to forget or lose it
+                        </div>
+                    </div>
+                    <button class="button button_inactive" id="sign-up-button-monitor">Sign Up</button>
+                    <div class="pop-up__text" id="pop-up__text-monitor">
+                        Already have an account?
+                        <a href="" class="pop-up__link"> Log in</a>
+                    </div>
+                </div>
+                <div class="pop-up__register-wrapper-right">
+                    <div class="master-pwd-illustration"></div>
+                    <div class="pop-up__heading-h2">
+                        What is the Master&nbspPassword
+                    </div>
+                    <div class="pop-up__text pop-up__master-text">
+                        The master password encrypts all your&nbspdata in&nbspPasswork. It is never sent to the server so it is impossible to decrypt your data there.
+                    </div>
+                    <div class="privacy-wrapper">
+                        <a href="" class="pop-up__link">Read about privacy</a>
+                        <div class="external-link-icon"></div>
+                    </div>
+                    <div class="terms-check">
+                        <input type="checkbox" class="checkboxes" name="terms-check" id="terms-check">
+                        <label for="terms-check">
+                            I have read and agreed with the 
+                            <a href="" class="pop-up__link"> Terms of Use.</a>
+                        </label>
+                    </div>
+                    <button class="button button_inactive" id="sign-up-button-mobile">Sign Up</button>
+                </div>
+                <div class="pop-up__terms-text">
+                    By clicking “Sign Up” above, you acknowledge that you have read and understood, and&nbspagree to Passwork Terms & Conditions and Privacy Policy
+                </div>
+            </div>
+        </div>
+        <div class="pop-up pop-up_hidden pop-up__login">
+            <div class="pop-up__heading-h1">Login</div>
+            <div class="pop-up__inputs-wrapper">
+                <div class="pop-up__input-text">
+                    <input type="text" name="" id="email-input" class="sign-in__input" required>
+                    <label for="email-input" class="sign-in__label">Email</label>
+                </div>
+                <div class="pop-up__input-text">
+                    <input type="password" name="" id="password-input" class="sign-in__input" required>
+                    <label for="password-input" class="sign-in__label">Password</label>
+                    <div class="eye-icon"></div>
+                </div>
+            </div>
+            <button class="button button_inactive">Log In</button>
+            <div class="pop-up__text">
+                Don’t have an account?
+                <a href="" class="pop-up__link"> Sign Up</a>
+                <a href="" class="pop-up__link">Recover password</a>
+            </div>
+        </div>
+        <div class="pop-up pop-up_hidden pop-up__recover">
+            <div class="pop-up__heading-h1">Recover password</div>
+            <div class="pop-up__text">
+                Enter your email to receive password reset instructions
+            </div>
+            <div class="pop-up__inputs-wrapper">
+                <div class="pop-up__input-text">
+                    <input type="text" name="" id="email-input" class="sign-in__input" required>
+                    <label for="email-input" class="sign-in__label">Email</label>
+                </div>
+            </div>
+            <button class="button button_inactive">Recover</button>
+            <div class="pop-up__text">
+                Just remembered your password?
+                <a href="" class="pop-up__link"> Log in</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
